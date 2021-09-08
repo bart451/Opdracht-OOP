@@ -14,4 +14,3 @@ require 'pikachu.php';
 </body>
 
 </html>
-?>
