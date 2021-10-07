@@ -1,14 +1,18 @@
-<?php class resistance{
-    public $name;
+<?php class resistance
+{
+    public $EnergyType;
     public $value;
-    public function getResistanceName(){
-        return $this->name;
+    public function getResistanceType()
+    {
+        return $this->EnergyType;
     }
-    public function getResistanceValue(){
+    public function getResistanceValue()
+    {
         return $this->value;
     }
-    public function __construct($name, $value){
-        $this->name = $name;
+    public function __construct($EnergyType, $value)
+    {
+        $this->EnergyType = $EnergyType;
         $this->value = $value;
     }
 }
